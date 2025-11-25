@@ -56,6 +56,8 @@ if st.button("Optimize"):
 
             st.info(f"Length: {len(optimized)} nucleotides")
 
+            st.markdown("<p style='text-align:center; font-style:italic;'>Putting the rad in D. rad. since 2011</p>", unsafe_allow_html=True)
+            
             st.download_button(
                 "Download FASTA",
                 data=f">optimized_Dradiodurans\n{wrapped}\n",
