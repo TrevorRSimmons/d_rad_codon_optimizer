@@ -38,10 +38,15 @@ st.markdown(
 
 st.markdown("Codon usage data sourced from the ""[Lowe Lab GtRNAdb dataset (Deinococcus radiodurans)](https://link.springer.com/protocol/10.1007/978-1-4939-9173-0_1)")
 
-st.markdown("""
-Paste a nucleotide or amino acid sequence to obtain a **codon-optimized DNA**
-sequence for expression in *Deinococcus radiodurans*.
-""")
+st.markdown(
+    """
+    <div style="margin-top:20px; font-size:1.25em;">
+        Paste a nucleotide or amino acid sequence to obtain a <b>codon-optimized DNA</b>
+        sequence for expression in <em>Deinococcus radiodurans</em>.
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
 input_type_label = st.radio(
     "Input type:",
