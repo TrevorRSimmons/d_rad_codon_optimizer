@@ -29,7 +29,7 @@ st.markdown(
     <p style='font-size:1.05em;'>
         Developed by
         <a href='https://scholar.google.com/citations?user=aSl7DJEAAAAJ&hl=en' target='_blank'>Laci Moline</a>,
-        <a href='https://scholar.google.com/citations?user=pu-5jVYAAAAJ&hl=en' target='_blank'>Trevor Simmons, Ph.D.</a>,
+        <a href='https://scholar.google.com/citations?user=pu-5jVYAAAAJ&hl=en' target='_blank'>Trevor Simmons Ph.D.</a>,
         and
         <a href='https://sites.utexas.edu/contreraslab/' target='_blank'>The Contreras Lab at UT-Austin</a>
         from the 
