@@ -23,6 +23,19 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
+st.markdown(
+    """
+    <p style='font-size:1.05em;'>
+        Originally developed by Laci Moline,
+        <a href='https://scholar.google.com/citations?user=pu-5jVYAAAAJ&hl=en' target='_blank'>Trevor Simmons</a>,
+        and
+        <a href='https://sites.utexas.edu/contreraslab/' target='_blank'>The Contreras Lab at UT-Austin</a>
+    </p>
+    """,
+    unsafe_allow_html=True
+)
+
 st.markdown("Originally developed by Laci Moline, ""[Trevor Simmons](https://scholar.google.com/citations?user=pu-5jVYAAAAJ&hl=en), and ""[The Contreras Lab at UT-Austin](https://sites.utexas.edu/contreraslab/)")
 st.markdown("Codon usage data sourced from the ""[Lowe Lab GtRNAdb dataset (Deinococcus radiodurans)](https://link.springer.com/protocol/10.1007/978-1-4939-9173-0_1)")
 
