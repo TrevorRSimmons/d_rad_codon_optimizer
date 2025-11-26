@@ -6,7 +6,7 @@ from optimizer import optimize_sequence
 st.set_page_config(page_title="The D. radiodurans Codon Optimizer", layout="centered")
 
 st.markdown("<h1>The <em>Deinococcus radiodurans</em> Codon Optimizer</h1>", unsafe_allow_html=True)
-st.caption("Originally developed by Laci Moline, Trevor Simmons, and The Contreras Lab at UT-Austin")
+st.markdown("Originally developed by Laci Moline, Trevor Simmons, and ""[The Contreras Lab at UT-Austin](https://sites.utexas.edu/contreraslab/)")
 
 st.markdown("""
 Paste a nucleotide or amino acid sequence to obtain a **codon-optimized DNA**
