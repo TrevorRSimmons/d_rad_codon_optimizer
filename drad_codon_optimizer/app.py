@@ -5,7 +5,7 @@ from optimizer import optimize_sequence
 
 st.set_page_config(page_title="The D. radiodurans Codon Optimizer", layout="centered")
 
-st.title("The Deinococcus radiodurans Codon Optimizer")
+st.markdown("<h1>The <em>Deinococcus radiodurans</em> Codon Optimizer</h1>", unsafe_allow_html=True)
 st.caption("Originally developed by Laci Moline, Trevor Simmons, and The Contreras Lab at UT-Austin")
 
 st.markdown("""
