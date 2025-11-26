@@ -40,7 +40,7 @@ st.markdown("Codon usage data sourced from the ""[Lowe Lab GtRNAdb dataset (Dein
 
 st.markdown(
     """
-    <div style="margin-top:20px; font-size:1.25em;">
+    <div style="margin-top:20px; margin-bottom:25px; font-size:1.05em;">
         Paste a nucleotide or amino acid sequence to obtain a <b>codon-optimized DNA</b>
         sequence for expression in <em>Deinococcus radiodurans</em>.
     </div>
