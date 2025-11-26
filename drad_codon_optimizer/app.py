@@ -13,8 +13,8 @@ st.markdown(
         </h1>
         <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Deinococcus_radiodurans._esquem%C3%A0tic.jpg"
              style="
-                height:3em;
-                width:3em;
+                height:4em;
+                width:4em;
                 border-radius:50%;
                 object-fit:cover;
                 border: 2px solid #888;
