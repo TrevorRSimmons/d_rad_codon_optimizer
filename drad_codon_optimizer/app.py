@@ -5,7 +5,24 @@ from optimizer import optimize_sequence
 
 st.set_page_config(page_title="The D. radiodurans Codon Optimizer", layout="centered")
 
-st.markdown("<h1>The <em>Deinococcus radiodurans</em> Codon Optimizer</h1>", unsafe_allow_html=True)
+st.markdown(
+    """
+    <div style="display:flex; align-items:center; justify-content:center; margin-bottom: 1rem;">
+        <h1 style="margin:0; margin-right:15px;">
+            The <em>Deinococcus radiodurans</em> Codon Optimizer
+        </h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Deinococcus_radiodurans._esquem%C3%A0tic.jpg"
+             style="
+                height:3em;
+                width:3em;
+                border-radius:50%;
+                object-fit:cover;
+                border: 2px solid #888;
+             ">
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 st.markdown("Originally developed by Laci Moline, Trevor Simmons, and ""[The Contreras Lab at UT-Austin](https://sites.utexas.edu/contreraslab/)")
 
 st.markdown("""
