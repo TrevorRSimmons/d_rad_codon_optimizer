@@ -23,7 +23,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-st.markdown("Originally developed by Laci Moline, Trevor Simmons, and ""[The Contreras Lab at UT-Austin](https://sites.utexas.edu/contreraslab/)")
+st.markdown("Originally developed by Laci Moline, ""[Trevor Simmons](https://scholar.google.com/citations?user=pu-5jVYAAAAJ&hl=en), and ""[The Contreras Lab at UT-Austin](https://sites.utexas.edu/contreraslab/)")
 
 st.markdown("""
 Paste a nucleotide or amino acid sequence to obtain a **codon-optimized DNA**
